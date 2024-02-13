@@ -1,0 +1,72 @@
+.SearchRecipes {
+    max-width: 1600px;
+    padding: 0px 50px;
+    margin: 0px auto;
+    padding-top: 50px;
+
+    @media screen and (max-width: 480px) {
+        padding: 50px 10px;
+        padding-bottom: 0px;
+    }
+}
+
+.SearchResults {
+    margin: 0px 0px 50px;
+    padding-top: 50px;
+
+    &__data {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-gap: 33px;
+
+        @media (max-width: 500px) {
+            grid-template-columns: auto;
+        }
+    }
+
+    &__noData {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: clamp(1rem, 1vw + 1rem, 3rem);
+
+        &__link {
+            text-decoration: underline;
+        }
+    }
+}
+
+.ResultCard {
+    &__card {
+        // border: 1px solid #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #fff;
+
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        &__title {
+            padding: 10px 10px 0px;
+            overflow: hidden;
+            /* number of lines to show */
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        &__more {
+            padding: 10px;
+            text-decoration: underline;
+        }
+    }
+
+}

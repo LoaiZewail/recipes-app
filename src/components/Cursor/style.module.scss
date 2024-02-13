@@ -1,0 +1,13 @@
+.cursor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  backdrop-filter: invert(.7);
+  position: fixed;
+  z-index: 999;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
