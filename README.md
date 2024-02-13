@@ -16,7 +16,7 @@ Recipes App - a simple and responsive web application designed to search for rec
 
 - Implemented responsive design for both desktop and mobile views.
 - Utilized Sass for modular styling to ensure clean and maintainable styles.
-- Employed CSS modules to prevent style leakage and encapsulate styles within components.
+- Employed scss modules to prevent style leakage and encapsulate styles within components.
 
 ### `State Management:`
 
