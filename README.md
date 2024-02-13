@@ -2,69 +2,70 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Recipes App - a simple and responsive web application designed to search for recipes and view the select recipe ingredients and directions. With a combination of innovative features and efficient experience for users.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [https://recipes-app-chi-five.vercel.app/](https://recipes-app-chi-five.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+### `Responsive Design:`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Implemented responsive design for both desktop and mobile views.
+- Utilized Sass for modular styling to ensure clean and maintainable styles.
+- Employed CSS modules to prevent style leakage and encapsulate styles within components.
 
-### `npm run build`
+### `State Management:`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Leveraged React Query for efficient API calls, improving data fetching and caching.
+- Integrated Axios for handling API requests with simplicity and flexibility.
+- Designed custom hooks to promote clean code and maintain single responsibility.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Search Functionality:`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Implemented a search feature that triggers only on pressing "Enter" or clicking a button.
+- Optimized performance by preventing unnecessary API calls and conserving quota.
 
-### `npm run eject`
+### `Animations and Interactivity:`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Incorporated Framer Motion for smooth animations and enhanced interactivity.
+- Used animations to improve user experience and engagement.
+- Added page transitions for a seamless navigation experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Loading and Error Handling:`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Implemented loading indicators to provide feedback during data fetching.
+- Incorporated error statistics to assist in debugging and user feedback.
+- Added a preloader for a more polished loading experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `Environment Variables:`
 
-## Learn More
+- Utilized environment variables for configuration and sensitive data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `Project Structure:`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Organized project structure to promote modularity and maintainability.
+- Utilized clean code practices for improved readability and collaboration.
 
-### Code Splitting
+### `Tech Stack:`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React: Used for building the user interface.
+- React Router Dom: Used for client-side navigation and routing.
+- Sass: Employed for styling with a modular approach.
+- React Query and Axios: Facilitated efficient API calls and data management.
+- Framer Motion: Enhanced the UI with animations.
 
-### Analyzing the Bundle Size
+## Upcoming Enhancements (To do)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `UI Enhancements`
 
-### Making a Progressive Web App
+- Plan to implement additional UI enhancements to improve the overall visual appeal.
+- Explore opportunities to refine the user interface for a more intuitive experience
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### `Search Paging Feature:`
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Introduce a paging feature for search results, allowing users to navigate through multiple pages of search results.
+- Enhance the search experience by providing a more comprehensive view of search results.
